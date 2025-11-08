@@ -62,7 +62,7 @@ const MultiStepSidebar = React.forwardRef<HTMLDivElement, MultiStepSidebarProps>
         </div>
         <div className="flex h-full w-full flex-col items-center gap-4 md:p-4">
           <div
-            className="rounded-large shadow-small sticky top-0 z-10 w-full py-4 md:max-w-xl lg:hidden"
+            className="rounded-large shadow-small w-full py-4 md:max-w-xl lg:hidden"
             style={{
               backgroundImage:
                 "linear-gradient(to right, rgb(124 164 164 / 0.12), rgb(58 107 157 / 0.12))",
